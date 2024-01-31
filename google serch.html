@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <style type="text/css">
+      .search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        height: 100vh;
+      }
+      form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      input[type="text"] {
+        padding: 9px;
+        border: none;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 0px;
+        border-radius: 20px 0px 0px 20px;
+        width: 300px;
+      }
+      button[type="submit"] {
+        padding: 10px 15px;
+        background-color: #4c91ff;
+        border: none;
+        border-radius: 0px 20px 20px 0px;
+        cursor: pointer;
+      }
+      button[type="submit"]:hover {
+        background-color: #0f6bff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="search-container">
+      <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" id="" placeholder="search google" />
+        <button type="submit"><i class="fa fa-search">🔍</i></button>
+      </form>
+    </div>
+  </body>
+</html>
